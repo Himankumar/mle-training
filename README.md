@@ -15,4 +15,9 @@ The following techniques have been used:
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
 ## To excute the script
-python < scriptname.py >
+ - Load the conda evironment named env.yml using command > conda env create -f env.yml
+ - Activate the conda environment > conda activate mle-dev
+ - Run the python code > python nonstandardcode.py
+ - Deactivate the environment when not needed > conda deactivate
+ 
+ The above 4 steps will complete the execution for the python script.
