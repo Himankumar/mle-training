@@ -1,0 +1,421 @@
+Script started on 2023-03-13 13:57:39+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git --version
+git version 2.25.1
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config --list --show-origin
+[?1h=file:.git/config        core.repositoryformatversion=0[m
+file:.git/config        core.filemode=false[m
+file:.git/config        core.bare=false[m
+file:.git/config        core.logallrefupdates=true[m
+file:.git/config        core.symlinks=false[m
+file:.git/config        core.ignorecase=true[m
+[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config --global user.name "John Doe"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"H"i"m"a"n"s"h"u" "K"u"m"a"r" [A]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config --global user.name "Himanshu Kumar" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kemail "himanshu.kumar 2687@tigeranalytics.com"[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chimanshu.kumar26[1P87@tigeranalytics.com[A]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config --global init.defaultBranch main
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config --list
+[?1h=user.name=Himanshu Kumar[m
+user.email=himanshu.kumar2687@tigeranalytics.com[m
+core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=false[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.symlinks=false[m
+core.ignorecase=true[m
+[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ [K]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config user.name
+Himanshu Kumar
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config user.name[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit config --show-origin rerere.autoUpdate
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git config --show-origin rerere.autoUpdate[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git help config
+[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                                      Git Manual                                                      GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] name [value [value_regex]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --replace-all name value [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] [--name-only] --get-regexp name_regex [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key separated by a dot, and the value[m
+       will be escaped.[m
+[m
+       Multiple lines can be added to an option by using the [1m--add[0m option. If you want to update or unset an option which can occur on multiple[m
+       lines, a POSIX regexp [1mvalue_regex[0m needs to be given. Only the existing values that match the regexp are updated or unset. If you want to[m
+       handle the lines that do [1mnot[0m match the regex, just prepend a single exclamation mark in front (see also the section called “EXAMPLES”).[m
+[m
+       The [1m--type=<type>[0m option instructs [4mgit[24m [4mconfig[24m to ensure that incoming and outgoing values are canonicalize-able under the given <type>.[m
+       If no [1m--type=<type>[0m is given, no canonicalization will be performed. Callers may unset an existing [1m--type[0m specifier with [1m--no-type[0m.[m
+[m
+       When reading, the values are read from the system, global and repository local configuration files by default, and options [1m--system[0m,[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+  R                    Repaint screen, discarding buffered input.[m
+        ---------------------------------------------------[m
+        Default "window" is the screen height.[m
+        Default "half-window" is half of the screen height.[m
+ ---------------------------------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K...skipping...
+GIT-CONFIG(1)                                                      Git Manual                                                      GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] name [value [value_regex]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --replace-all name value [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] --get-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [-z|--null] [--name-only] --get-regexp name_regex [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --unset-all name [value_regex][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key separated by a dot, and the value[m
+       will be escaped.[m
+[m
+       Multiple lines can be added to an option by using the [1m--add[0m option. If you want to update or unset an option which can occur on multiple[m
+       lines, a POSIX regexp [1mvalue_regex[0m needs to be given. Only the existing values that match the regexp are updated or unset. If you want to[m
+       handle the lines that do [1mnot[0m match the regex, just prepend a single exclamation mark in front (see also the section called “EXAMPLES”).[m
+[m
+       The [1m--type=<type>[0m option instructs [4mgit[24m [4mconfig[24m to ensure that incoming and outgoing values are canonicalize-able under the given <type>.[m
+       If no [1m--type=<type>[0m is given, no canonicalization will be performed. Callers may unset an existing [1m--type[0m specifier with [1m--no-type[0m.[m
+[m
+       When reading, the values are read from the system, global and repository local configuration files by default, and options [1m--system[0m,[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git init
+Initialized empty Git repository in /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold/.git/
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git add .*c[K[K[K*.c
+fatal: pathspec '*.c' did not match any files
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git add license[K[K[K[K[K[K[KLICENSE
+fatal: pathspec 'LICENSE' did not match any files
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git commit -m 'Initial Project Version'
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mmy_unix_session.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git clone https://github.com/Himankumar/mle-training
+Cloning into 'mle-training'...
+Username for 'https://github.com': HimanKumar
+Password for 'https://HimanKumar@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Himankumar/mle-training/'
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git clone https://github.com/Himankumar/mle-training
+Cloning into 'mle-training'...
+Username for 'https://github.com': HimanKumar
+Password for 'https://HimanKumar@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Himankumar/mle-training/'
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git clone https://github.com/Himankumar/mle-training
+Cloning into 'mle-training'...
+Username for 'https://github.com': HimanKumar     kumar
+Password for 'https://Himankumar@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Himankumar/mle-training/'
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git clone https://github.com/Himankumar/mle-training[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kclone https://github.com/Himankumar/mle-training
+Cloning into 'mle-training'...
+Username for 'https://github.com': Himankumar
+Password for 'https://Himankumar@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Himankumar/mle-training/'
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git clone https://github.com/Himankumar/mle-training
+Cloning into 'mle-training'...
+Username for 'https://github.com': HimanKu  kumar
+Password for 'https://Himankumar@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Himankumar/mle-training/'
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git clone https://github.com/libgit2/libgit2
+Cloning into 'libgit2'...
+remote: Enumerating objects: 120939, done.[K
+remote: Counting objects:   0% (1/120939)[Kremote: Counting objects:   1% (1210/120939)[Kremote: Counting objects:   2% (2419/120939)[Kremote: Counting objects:   3% (3629/120939)[Kremote: Counting objects:   4% (4838/120939)[Kremote: Counting objects:   5% (6047/120939)[Kremote: Counting objects:   6% (7257/120939)[Kremote: Counting objects:   7% (8466/120939)[Kremote: Counting objects:   8% (9676/120939)[Kremote: Counting objects:   9% (10885/120939)[Kremote: Counting objects:  10% (12094/120939)[Kremote: Counting objects:  11% (13304/120939)[Kremote: Counting objects:  12% (14513/120939)[Kremote: Counting objects:  13% (15723/120939)[Kremote: Counting objects:  14% (16932/120939)[Kremote: Counting objects:  15% (18141/120939)[Kremote: Counting objects:  16% (19351/120939)[Kremote: Counting objects:  17% (20560/120939)[Kremote: Counting objects:  18% (21770/120939)[Kremote: Counting objects:  19% (22979/120939)[Kremote: Counting objects:  20% (24188/120939)[Kremote: Counting objects:  21% (25398/120939)[Kremote: Counting objects:  22% (26607/120939)[Kremote: Counting objects:  23% (27816/120939)[Kremote: Counting objects:  24% (29026/120939)[Kremote: Counting objects:  25% (30235/120939)[Kremote: Counting objects:  26% (31445/120939)[Kremote: Counting objects:  27% (32654/120939)[Kremote: Counting objects:  28% (33863/120939)[Kremote: Counting objects:  29% (35073/120939)[Kremote: Counting objects:  30% (36282/120939)[Kremote: Counting objects:  31% (37492/120939)[Kremote: Counting objects:  32% (38701/120939)[Kremote: Counting objects:  33% (39910/120939)[Kremote: Counting objects:  34% (41120/120939)[Kremote: Counting objects:  35% (42329/120939)[Kremote: Counting objects:  36% (43539/120939)[Kremote: Counting objects:  37% (44748/120939)[Kremote: Counting objects:  38% (45957/120939)[Kremote: Counting objects:  39% (47167/120939)[Kremote: Counting objects:  40% (48376/120939)[Kremote: Counting objects:  41% (49585/120939)[Kremote: Counting objects:  42% (50795/120939)[Kremote: Counting objects:  43% (52004/120939)[Kremote: Counting objects:  44% (53214/120939)[Kremote: Counting objects:  45% (54423/120939)[Kremote: Counting objects:  46% (55632/120939)[Kremote: Counting objects:  47% (56842/120939)[Kremote: Counting objects:  48% (58051/120939)[Kremote: Counting objects:  49% (59261/120939)[Kremote: Counting objects:  50% (60470/120939)[Kremote: Counting objects:  51% (61679/120939)[Kremote: Counting objects:  52% (62889/120939)[Kremote: Counting objects:  53% (64098/120939)[Kremote: Counting objects:  54% (65308/120939)[Kremote: Counting objects:  55% (66517/120939)[Kremote: Counting objects:  56% (67726/120939)[Kremote: Counting objects:  57% (68936/120939)[Kremote: Counting objects:  58% (70145/120939)[Kremote: Counting objects:  59% (71355/120939)[Kremote: Counting objects:  60% (72564/120939)[Kremote: Counting objects:  61% (73773/120939)[Kremote: Counting objects:  62% (74983/120939)[Kremote: Counting objects:  63% (76192/120939)[Kremote: Counting objects:  64% (77401/120939)[Kremote: Counting objects:  65% (78611/120939)[Kremote: Counting objects:  66% (79820/120939)[Kremote: Counting objects:  67% (81030/120939)[Kremote: Counting objects:  68% (82239/120939)[Kremote: Counting objects:  69% (83448/120939)[Kremote: Counting objects:  70% (84658/120939)[Kremote: Counting objects:  71% (85867/120939)[Kremote: Counting objects:  72% (87077/120939)[Kremote: Counting objects:  73% (88286/120939)[Kremote: Counting objects:  74% (89495/120939)[Kremote: Counting objects:  75% (90705/120939)[Kremote: Counting objects:  76% (91914/120939)[Kremote: Counting objects:  77% (93124/120939)[Kremote: Counting objects:  78% (94333/120939)[Kremote: Counting objects:  79% (95542/120939)[Kremote: Counting objects:  80% (96752/120939)[Kremote: Counting objects:  81% (97961/120939)[Kremote: Counting objects:  82% (99170/120939)[Kremote: Counting objects:  83% (100380/120939)[Kremote: Counting objects:  84% (101589/120939)[Kremote: Counting objects:  85% (102799/120939)[Kremote: Counting objects:  86% (104008/120939)[Kremote: Counting objects:  87% (105217/120939)[Kremote: Counting objects:  88% (106427/120939)[Kremote: Counting objects:  89% (107636/120939)[Kremote: Counting objects:  90% (108846/120939)[Kremote: Counting objects:  91% (110055/120939)[Kremote: Counting objects:  92% (111264/120939)[Kremote: Counting objects:  93% (112474/120939)[Kremote: Counting objects:  94% (113683/120939)[Kremote: Counting objects:  95% (114893/120939)[Kremote: Counting objects:  96% (116102/120939)[Kremote: Counting objects:  97% (117311/120939)[Kremote: Counting objects:  98% (118521/120939)[Kremote: Counting objects:  99% (119730/120939)[Kremote: Counting objects: 100% (120939/120939)[Kremote: Counting objects: 100% (120939/120939), done.[K
+remote: Compressing objects:   0% (1/33071)[Kremote: Compressing objects:   1% (331/33071)[Kremote: Compressing objects:   2% (662/33071)[Kremote: Compressing objects:   3% (993/33071)[Kremote: Compressing objects:   4% (1323/33071)[Kremote: Compressing objects:   5% (1654/33071)[Kremote: Compressing objects:   6% (1985/33071)[Kremote: Compressing objects:   7% (2315/33071)[Kremote: Compressing objects:   8% (2646/33071)[Kremote: Compressing objects:   9% (2977/33071)[Kremote: Compressing objects:  10% (3308/33071)[Kremote: Compressing objects:  11% (3638/33071)[Kremote: Compressing objects:  12% (3969/33071)[Kremote: Compressing objects:  13% (4300/33071)[Kremote: Compressing objects:  14% (4630/33071)[Kremote: Compressing objects:  15% (4961/33071)[Kremote: Compressing objects:  16% (5292/33071)[Kremote: Compressing objects:  17% (5623/33071)[Kremote: Compressing objects:  18% (5953/33071)[Kremote: Compressing objects:  19% (6284/33071)[Kremote: Compressing objects:  20% (6615/33071)[Kremote: Compressing objects:  21% (6945/33071)[Kremote: Compressing objects:  22% (7276/33071)[Kremote: Compressing objects:  23% (7607/33071)[Kremote: Compressing objects:  24% (7938/33071)[Kremote: Compressing objects:  25% (8268/33071)[Kremote: Compressing objects:  26% (8599/33071)[Kremote: Compressing objects:  27% (8930/33071)[Kremote: Compressing objects:  28% (9260/33071)[Kremote: Compressing objects:  29% (9591/33071)[Kremote: Compressing objects:  30% (9922/33071)[Kremote: Compressing objects:  31% (10253/33071)[Kremote: Compressing objects:  32% (10583/33071)[Kremote: Compressing objects:  33% (10914/33071)[Kremote: Compressing objects:  34% (11245/33071)[Kremote: Compressing objects:  35% (11575/33071)[Kremote: Compressing objects:  36% (11906/33071)[Kremote: Compressing objects:  37% (12237/33071)[Kremote: Compressing objects:  38% (12567/33071)[Kremote: Compressing objects:  39% (12898/33071)[Kremote: Compressing objects:  40% (13229/33071)[Kremote: Compressing objects:  41% (13560/33071)[Kremote: Compressing objects:  42% (13890/33071)[Kremote: Compressing objects:  43% (14221/33071)[Kremote: Compressing objects:  44% (14552/33071)[Kremote: Compressing objects:  45% (14882/33071)[Kremote: Compressing objects:  46% (15213/33071)[Kremote: Compressing objects:  47% (15544/33071)[Kremote: Compressing objects:  48% (15875/33071)[Kremote: Compressing objects:  49% (16205/33071)[Kremote: Compressing objects:  50% (16536/33071)[Kremote: Compressing objects:  51% (16867/33071)[Kremote: Compressing objects:  52% (17197/33071)[Kremote: Compressing objects:  53% (17528/33071)[Kremote: Compressing objects:  54% (17859/33071)[Kremote: Compressing objects:  55% (18190/33071)[Kremote: Compressing objects:  56% (18520/33071)[Kremote: Compressing objects:  57% (18851/33071)[Kremote: Compressing objects:  58% (19182/33071)[Kremote: Compressing objects:  59% (19512/33071)[Kremote: Compressing objects:  60% (19843/33071)[Kremote: Compressing objects:  61% (20174/33071)[Kremote: Compressing objects:  62% (20505/33071)[Kremote: Compressing objects:  63% (20835/33071)[Kremote: Compressing objects:  64% (21166/33071)[Kremote: Compressing objects:  65% (21497/33071)[Kremote: Compressing objects:  66% (21827/33071)[Kremote: Compressing objects:  67% (22158/33071)[Kremote: Compressing objects:  68% (22489/33071)[Kremote: Compressing objects:  69% (22819/33071)[Kremote: Compressing objects:  70% (23150/33071)[Kremote: Compressing objects:  71% (23481/33071)[Kremote: Compressing objects:  72% (23812/33071)[Kremote: Compressing objects:  73% (24142/33071)[Kremote: Compressing objects:  74% (24473/33071)[Kremote: Compressing objects:  75% (24804/33071)[Kremote: Compressing objects:  76% (25134/33071)[Kremote: Compressing objects:  77% (25465/33071)[Kremote: Compressing objects:  78% (25796/33071)[Kremote: Compressing objects:  79% (26127/33071)[Kremote: Compressing objects:  80% (26457/33071)[Kremote: Compressing objects:  81% (26788/33071)[Kremote: Compressing objects:  82% (27119/33071)[Kremote: Compressing objects:  83% (27449/33071)[Kremote: Compressing objects:  84% (27780/33071)[Kremote: Compressing objects:  85% (28111/33071)[Kremote: Compressing objects:  86% (28442/33071)[Kremote: Compressing objects:  87% (28772/33071)[Kremote: Compressing objects:  88% (29103/33071)[Kremote: Compressing objects:  89% (29434/33071)[Kremote: Compressing objects:  90% (29764/33071)[Kremote: Compressing objects:  91% (30095/33071)[Kremote: Compressing objects:  92% (30426/33071)[Kremote: Compressing objects:  93% (30757/33071)[Kremote: Compressing objects:  94% (31087/33071)[Kremote: Compressing objects:  95% (31418/33071)[Kremote: Compressing objects:  96% (31749/33071)[Kremote: Compressing objects:  97% (32079/33071)[Kremote: Compressing objects:  98% (32410/33071)[Kremote: Compressing objects:  99% (32741/33071)[Kremote: Compressing objects: 100% (33071/33071)[Kremote: Compressing objects: 100% (33071/33071), done.[K
+Receiving objects:   0% (1/120939)Receiving objects:   1% (1210/120939)Receiving objects:   2% (2419/120939)Receiving objects:   3% (3629/120939)Receiving objects:   4% (4838/120939), 1.35 MiB | 2.69 MiB/sReceiving objects:   5% (6047/120939), 1.35 MiB | 2.69 MiB/sReceiving objects:   6% (7257/120939), 1.35 MiB | 2.69 MiB/sReceiving objects:   7% (8466/120939), 1.35 MiB | 2.69 MiB/sReceiving objects:   8% (9676/120939), 1.35 MiB | 2.69 MiB/sReceiving objects:   9% (10885/120939), 1.35 MiB | 2.69 MiB/sReceiving objects:  10% (12094/120939), 1.35 MiB | 2.69 MiB/sReceiving objects:  10% (12889/120939), 1.35 MiB | 2.69 MiB/sReceiving objects:  11% (13304/120939), 3.80 MiB | 3.79 MiB/sReceiving objects:  12% (14513/120939), 3.80 MiB | 3.79 MiB/sReceiving objects:  13% (15723/120939), 3.80 MiB | 3.79 MiB/sReceiving objects:  14% (16932/120939), 3.80 MiB | 3.79 MiB/sReceiving objects:  15% (18141/120939), 3.80 MiB | 3.79 MiB/sReceiving objects:  16% (19351/120939), 3.80 MiB | 3.79 MiB/sReceiving objects:  17% (20560/120939), 3.80 MiB | 3.79 MiB/sReceiving objects:  18% (21770/120939), 3.80 MiB | 3.79 MiB/sReceiving objects:  19% (22979/120939), 6.13 MiB | 4.09 MiB/sReceiving objects:  20% (24188/120939), 6.13 MiB | 4.09 MiB/sReceiving objects:  21% (25398/120939), 6.13 MiB | 4.09 MiB/sReceiving objects:  22% (26607/120939), 6.13 MiB | 4.09 MiB/sReceiving objects:  22% (27782/120939), 6.13 MiB | 4.09 MiB/sReceiving objects:  23% (27816/120939), 9.72 MiB | 4.86 MiB/sReceiving objects:  24% (29026/120939), 12.68 MiB | 5.07 MiB/sReceiving objects:  25% (30235/120939), 12.68 MiB | 5.07 MiB/sReceiving objects:  26% (31445/120939), 12.68 MiB | 5.07 MiB/sReceiving objects:  27% (32654/120939), 12.68 MiB | 5.07 MiB/sReceiving objects:  28% (33863/120939), 16.91 MiB | 5.64 MiB/sReceiving objects:  29% (35073/120939), 16.91 MiB | 5.64 MiB/sReceiving objects:  30% (36282/120939), 16.91 MiB | 5.64 MiB/sReceiving objects:  31% (37492/120939), 16.91 MiB | 5.64 MiB/sReceiving objects:  32% (38701/120939), 16.91 MiB | 5.64 MiB/sReceiving objects:  33% (39910/120939), 16.91 MiB | 5.64 MiB/sReceiving objects:  34% (41120/120939), 16.91 MiB | 5.64 MiB/sReceiving objects:  35% (42329/120939), 16.91 MiB | 5.64 MiB/sReceiving objects:  36% (43539/120939), 25.39 MiB | 7.25 MiB/sReceiving objects:  37% (44748/120939), 25.39 MiB | 7.25 MiB/sReceiving objects:  38% (45957/120939), 25.39 MiB | 7.25 MiB/sReceiving objects:  39% (47167/120939), 25.39 MiB | 7.25 MiB/sReceiving objects:  39% (47862/120939), 25.39 MiB | 7.25 MiB/sReceiving objects:  40% (48376/120939), 27.82 MiB | 6.95 MiB/sReceiving objects:  41% (49585/120939), 27.82 MiB | 6.95 MiB/sReceiving objects:  42% (50795/120939), 27.82 MiB | 6.95 MiB/sReceiving objects:  43% (52004/120939), 27.82 MiB | 6.95 MiB/sReceiving objects:  44% (53214/120939), 27.82 MiB | 6.95 MiB/sReceiving objects:  45% (54423/120939), 27.82 MiB | 6.95 MiB/sReceiving objects:  46% (55632/120939), 27.82 MiB | 6.95 MiB/sReceiving objects:  47% (56842/120939), 27.82 MiB | 6.95 MiB/sReceiving objects:  48% (58051/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  49% (59261/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  50% (60470/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  51% (61679/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  52% (62889/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  53% (64098/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  54% (65308/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  55% (66517/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  56% (67726/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  56% (68912/120939), 33.37 MiB | 7.41 MiB/sReceiving objects:  57% (68936/120939), 39.41 MiB | 8.46 MiB/sReceiving objects:  58% (70145/120939), 39.41 MiB | 8.46 MiB/sReceiving objects:  59% (71355/120939), 39.41 MiB | 8.46 MiB/sReceiving objects:  60% (72564/120939), 39.41 MiB | 8.46 MiB/sReceiving objects:  61% (73773/120939), 39.41 MiB | 8.46 MiB/sReceiving objects:  62% (74983/120939), 45.05 MiB | 9.17 MiB/sReceiving objects:  63% (76192/120939), 45.05 MiB | 9.17 MiB/sReceiving objects:  64% (77401/120939), 45.05 MiB | 9.17 MiB/sReceiving objects:  65% (78611/120939), 45.05 MiB | 9.17 MiB/sReceiving objects:  66% (79820/120939), 45.05 MiB | 9.17 MiB/sReceiving objects:  67% (81030/120939), 45.05 MiB | 9.17 MiB/sReceiving objects:  68% (82239/120939), 45.05 MiB | 9.17 MiB/sReceiving objects:  68% (82335/120939), 45.05 MiB | 9.17 MiB/sReceiving objects:  69% (83448/120939), 50.90 MiB | 9.95 MiB/sReceiving objects:  70% (84658/120939), 50.90 MiB | 9.95 MiB/sReceiving objects:  71% (85867/120939), 50.90 MiB | 9.95 MiB/sReceiving objects:  72% (87077/120939), 50.90 MiB | 9.95 MiB/sReceiving objects:  73% (88286/120939), 50.90 MiB | 9.95 MiB/sReceiving objects:  74% (89495/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  75% (90705/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  76% (91914/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  77% (93124/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  78% (94333/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  79% (95542/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  80% (96752/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  81% (97961/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  82% (99170/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  83% (100380/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  84% (101589/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  85% (102799/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  86% (104008/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  87% (105217/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  88% (106427/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  89% (107636/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  90% (108846/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  91% (110055/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  92% (111264/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  93% (112474/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  93% (112552/120939), 53.91 MiB | 9.82 MiB/sReceiving objects:  94% (113683/120939), 60.19 MiB | 10.56 MiB/sReceiving objects:  95% (114893/120939), 60.19 MiB | 10.56 MiB/sReceiving objects:  96% (116102/120939), 60.19 MiB | 10.56 MiB/sReceiving objects:  97% (117311/120939), 60.19 MiB | 10.56 MiB/sReceiving objects:  98% (118521/120939), 60.19 MiB | 10.56 MiB/sReceiving objects:  99% (119730/120939), 60.19 MiB | 10.56 MiB/sremote: Total 120939 (delta 85920), reused 120870 (delta 85859), pack-reused 0
+Receiving objects: 100% (120939/120939), 60.19 MiB | 10.56 MiB/sReceiving objects: 100% (120939/120939), 62.40 MiB | 8.75 MiB/s, done.
+Resolving deltas:   0% (0/85920)Resolving deltas:   1% (1318/85920)Resolving deltas:   2% (1926/85920)Resolving deltas:   3% (2588/85920)Resolving deltas:   4% (3438/85920)Resolving deltas:   5% (4321/85920)Resolving deltas:   6% (5176/85920)Resolving deltas:   7% (6087/85920)Resolving deltas:   8% (6877/85920)Resolving deltas:   8% (7040/85920)Resolving deltas:   9% (7773/85920)Resolving deltas:  10% (8705/85920)Resolving deltas:  11% (9459/85920)Resolving deltas:  12% (10450/85920)Resolving deltas:  13% (11229/85920)Resolving deltas:  14% (12044/85920)Resolving deltas:  15% (13158/85920)Resolving deltas:  16% (13946/85920)Resolving deltas:  17% (14821/85920)Resolving deltas:  18% (15475/85920)Resolving deltas:  18% (15833/85920)Resolving deltas:  19% (16350/85920)Resolving deltas:  20% (17188/85920)Resolving deltas:  21% (18052/85920)Resolving deltas:  22% (18907/85920)Resolving deltas:  23% (19899/85920)Resolving deltas:  24% (20635/85920)Resolving deltas:  25% (21523/85920)Resolving deltas:  26% (22343/85920)Resolving deltas:  27% (23232/85920)Resolving deltas:  28% (24173/85920)Resolving deltas:  29% (24963/85920)Resolving deltas:  30% (25776/85920)Resolving deltas:  30% (26416/85920)Resolving deltas:  31% (26675/85920)Resolving deltas:  32% (27540/85920)Resolving deltas:  33% (28358/85920)Resolving deltas:  34% (29268/85920)Resolving deltas:  35% (30076/85920)Resolving deltas:  36% (30942/85920)Resolving deltas:  37% (31885/85920)Resolving deltas:  38% (32708/85920)Resolving deltas:  39% (33519/85920)Resolving deltas:  40% (34378/85920)Resolving deltas:  41% (35228/85920)Resolving deltas:  42% (36119/85920)Resolving deltas:  43% (36947/85920)Resolving deltas:  44% (37807/85920)Resolving deltas:  44% (38644/85920)Resolving deltas:  45% (38829/85920)Resolving deltas:  46% (39624/85920)Resolving deltas:  47% (40393/85920)Resolving deltas:  48% (41348/85920)Resolving deltas:  49% (42110/85920)Resolving deltas:  50% (42989/85920)Resolving deltas:  51% (43829/85920)Resolving deltas:  52% (44844/85920)Resolving deltas:  53% (45674/85920)Resolving deltas:  54% (46816/85920)Resolving deltas:  55% (47536/85920)Resolving deltas:  56% (48194/85920)Resolving deltas:  57% (49227/85920)Resolving deltas:  58% (49882/85920)Resolving deltas:  59% (50693/85920)Resolving deltas:  60% (51560/85920)Resolving deltas:  61% (52417/85920)Resolving deltas:  62% (53307/85920)Resolving deltas:  62% (54030/85920)Resolving deltas:  63% (54169/85920)Resolving deltas:  64% (54996/85920)Resolving deltas:  65% (55891/85920)Resolving deltas:  66% (56735/85920)Resolving deltas:  67% (57603/85920)Resolving deltas:  68% (58437/85920)Resolving deltas:  69% (59297/85920)Resolving deltas:  70% (60156/85920)Resolving deltas:  71% (61015/85920)Resolving deltas:  71% (61123/85920)Resolving deltas:  72% (61872/85920)Resolving deltas:  73% (62726/85920)Resolving deltas:  74% (63581/85920)Resolving deltas:  75% (64471/85920)Resolving deltas:  76% (65303/85920)Resolving deltas:  77% (66526/85920)Resolving deltas:  78% (67031/85920)Resolving deltas:  79% (67969/85920)Resolving deltas:  80% (68775/85920)Resolving deltas:  81% (69597/85920)Resolving deltas:  82% (70465/85920)Resolving deltas:  82% (70712/85920)Resolving deltas:  83% (71323/85920)Resolving deltas:  84% (72248/85920)Resolving deltas:  85% (73108/85920)Resolving deltas:  86% (73900/85920)Resolving deltas:  87% (74760/85920)Resolving deltas:  88% (75639/85920)Resolving deltas:  89% (76472/85920)Resolving deltas:  90% (77339/85920)Resolving deltas:  91% (78232/85920)Resolving deltas:  92% (79056/85920)Resolving deltas:  93% (79907/85920)Resolving deltas:  93% (80154/85920)Resolving deltas:  94% (80775/85920)Resolving deltas:  95% (81671/85920)Resolving deltas:  96% (82497/85920)Resolving deltas:  97% (83343/85920)Resolving deltas:  98% (84209/85920)Resolving deltas:  99% (85069/85920)Resolving deltas: 100% (85920/85920)Resolving deltas: 100% (85920/85920), done.
+Updating files:   0% (66/11664)Updating files:   1% (117/11664)Updating files:   1% (128/11664)Updating files:   1% (194/11664)Updating files:   2% (234/11664)Updating files:   2% (255/11664)Updating files:   2% (332/11664)Updating files:   3% (350/11664)Updating files:   3% (403/11664)Updating files:   4% (467/11664)Updating files:   4% (477/11664)Updating files:   4% (532/11664)Updating files:   5% (584/11664)Updating files:   5% (591/11664)Updating files:   5% (662/11664)Updating files:   6% (700/11664)Updating files:   6% (710/11664)Updating files:   6% (778/11664)Updating files:   7% (817/11664)Updating files:   7% (852/11664)Updating files:   7% (914/11664)Updating files:   8% (934/11664)Updating files:   8% (982/11664)Updating files:   8% (1038/11664)Updating files:   9% (1050/11664)Updating files:   9% (1128/11664)Updating files:  10% (1167/11664)Updating files:  10% (1183/11664)Updating files:  10% (1261/11664)Updating files:  11% (1284/11664)Updating files:  11% (1350/11664)Updating files:  12% (1400/11664)Updating files:  12% (1416/11664)Updating files:  12% (1500/11664)Updating files:  13% (1517/11664)Updating files:  13% (1561/11664)Updating files:  13% (1615/11664)Updating files:  14% (1633/11664)Updating files:  14% (1674/11664)Updating files:  14% (1731/11664)Updating files:  15% (1750/11664)Updating files:  15% (1813/11664)Updating files:  16% (1867/11664)Updating files:  16% (1875/11664)Updating files:  16% (1925/11664)Updating files:  16% (1980/11664)Updating files:  17% (1983/11664)Updating files:  17% (2048/11664)Updating files:  18% (2100/11664)Updating files:  18% (2120/11664)Updating files:  18% (2169/11664)Updating files:  18% (2210/11664)Updating files:  19% (2217/11664)Updating files:  19% (2257/11664)Updating files:  19% (2306/11664)Updating files:  20% (2333/11664)Updating files:  20% (2372/11664)Updating files:  20% (2439/11664)Updating files:  21% (2450/11664)Updating files:  21% (2481/11664)Updating files:  21% (2502/11664)Updating files:  21% (2552/11664)Updating files:  22% (2567/11664)Updating files:  22% (2587/11664)Updating files:  22% (2612/11664)Updating files:  22% (2655/11664)Updating files:  22% (2677/11664)Updating files:  23% (2683/11664)Updating files:  23% (2707/11664)Updating files:  23% (2729/11664)Updating files:  23% (2771/11664)Updating files:  24% (2800/11664)Updating files:  24% (2807/11664)Updating files:  24% (2838/11664)Updating files:  24% (2871/11664)Updating files:  24% (2904/11664)Updating files:  25% (2916/11664)Updating files:  25% (2977/11664)Updating files:  26% (3033/11664)Updating files:  26% (3043/11664)Updating files:  26% (3087/11664)Updating files:  26% (3145/11664)Updating files:  27% (3150/11664)Updating files:  27% (3194/11664)Updating files:  27% (3242/11664)Updating files:  28% (3266/11664)Updating files:  28% (3286/11664)Updating files:  28% (3335/11664)Updating files:  29% (3383/11664)Updating files:  29% (3384/11664)Updating files:  29% (3456/11664)Updating files:  30% (3500/11664)Updating files:  30% (3544/11664)Updating files:  30% (3604/11664)Updating files:  31% (3616/11664)Updating files:  31% (3683/11664)Updating files:  32% (3733/11664)Updating files:  32% (3750/11664)Updating files:  32% (3805/11664)Updating files:  33% (3850/11664)Updating files:  33% (3860/11664)Updating files:  33% (3927/11664)Updating files:  34% (3966/11664)Updating files:  34% (4000/11664)Updating files:  34% (4061/11664)Updating files:  35% (4083/11664)Updating files:  35% (4127/11664)Updating files:  36% (4200/11664)Updating files:  36% (4206/11664)Updating files:  36% (4272/11664)Updating files:  37% (4316/11664)Updating files:  37% (4329/11664)Updating files:  37% (4379/11664)Updating files:  38% (4433/11664)Updating files:  38% (4443/11664)Updating files:  38% (4501/11664)Updating files:  39% (4549/11664)Updating files:  39% (4568/11664)Updating files:  39% (4632/11664)Updating files:  40% (4666/11664)Updating files:  40% (4700/11664)Updating files:  40% (4782/11664)Updating files:  41% (4783/11664)Updating files:  41% (4859/11664)Updating files:  42% (4899/11664)Updating files:  42% (4917/11664)Updating files:  42% (4994/11664)Updating files:  43% (5016/11664)Updating files:  43% (5064/11664)Updating files:  44% (5133/11664)Updating files:  44% (5143/11664)Updating files:  44% (5215/11664)Updating files:  45% (5249/11664)Updating files:  45% (5287/11664)Updating files:  45% (5333/11664)Updating files:  46% (5366/11664)Updating files:  46% (5388/11664)Updating files:  46% (5443/11664)Updating files:  47% (5483/11664)Updating files:  47% (5506/11664)Updating files:  47% (5576/11664)Updating files:  48% (5599/11664)Updating files:  48% (5642/11664)Updating files:  48% (5715/11664)Updating files:  49% (5716/11664)Updating files:  49% (5785/11664)Updating files:  50% (5832/11664)Updating files:  50% (5857/11664)Updating files:  51% (5949/11664)Updating files:  51% (6020/11664)Updating files:  52% (6066/11664)Updating files:  52% (6094/11664)Updating files:  52% (6149/11664)Updating files:  53% (6182/11664)Updating files:  53% (6200/11664)Updating files:  53% (6260/11664)Updating files:  54% (6299/11664)Updating files:  54% (6342/11664)Updating files:  55% (6416/11664)Updating files:  55% (6423/11664)Updating files:  55% (6479/11664)Updating files:  55% (6525/11664)Updating files:  56% (6532/11664)Updating files:  56% (6595/11664)Updating files:  56% (6645/11664)Updating files:  57% (6649/11664)Updating files:  57% (6707/11664)Updating files:  57% (6752/11664)Updating files:  58% (6766/11664)Updating files:  58% (6796/11664)Updating files:  58% (6854/11664)Updating files:  59% (6882/11664)Updating files:  59% (6916/11664)Updating files:  59% (6991/11664)Updating files:  60% (6999/11664)Updating files:  60% (7061/11664)Updating files:  61% (7116/11664)Updating files:  61% (7131/11664)Updating files:  61% (7181/11664)Updating files:  61% (7225/11664)Updating files:  62% (7232/11664)Updating files:  62% (7284/11664)Updating files:  62% (7333/11664)Updating files:  63% (7349/11664)Updating files:  63% (7382/11664)Updating files:  63% (7438/11664)Updating files:  64% (7465/11664)Updating files:  64% (7491/11664)Updating files:  64% (7551/11664)Updating files:  65% (7582/11664)Updating files:  65% (7623/11664)Updating files:  65% (7692/11664)Updating files:  66% (7699/11664)Updating files:  66% (7756/11664)Updating files:  66% (7805/11664)Updating files:  67% (7815/11664)Updating files:  67% (7854/11664)Updating files:  67% (7917/11664)Updating files:  68% (7932/11664)Updating files:  68% (7968/11664)Updating files:  68% (8016/11664)Updating files:  69% (8049/11664)Updating files:  69% (8097/11664)Updating files:  69% (8145/11664)Updating files:  70% (8165/11664)Updating files:  70% (8204/11664)Updating files:  70% (8271/11664)Updating files:  71% (8282/11664)Updating files:  71% (8333/11664)Updating files:  71% (8378/11664)Updating files:  72% (8399/11664)Updating files:  72% (8415/11664)Updating files:  72% (8442/11664)Updating files:  72% (8472/11664)Updating files:  73% (8515/11664)Updating files:  73% (8517/11664)Updating files:  73% (8556/11664)Updating files:  73% (8601/11664)Updating files:  74% (8632/11664)Updating files:  74% (8638/11664)Updating files:  74% (8700/11664)Updating files:  74% (8735/11664)Updating files:  75% (8748/11664)Updating files:  75% (8759/11664)Updating files:  75% (8782/11664)Updating files:  75% (8819/11664)Updating files:  75% (8851/11664)Updating files:  76% (8865/11664)Updating files:  76% (8890/11664)Updating files:  76% (8917/11664)Updating files:  76% (8957/11664)Updating files:  77% (8982/11664)Updating files:  77% (8986/11664)Updating files:  77% (9012/11664)Updating files:  77% (9050/11664)Updating files:  77% (9089/11664)Updating files:  78% (9098/11664)Updating files:  78% (9120/11664)Updating files:  78% (9147/11664)Updating files:  78% (9187/11664)Updating files:  79% (9215/11664)Updating files:  79% (9232/11664)Updating files:  79% (9263/11664)Updating files:  79% (9300/11664)Updating files:  80% (9332/11664)Updating files:  80% (9337/11664)Updating files:  80% (9364/11664)Updating files:  80% (9406/11664)Updating files:  80% (9445/11664)Updating files:  81% (9448/11664)Updating files:  81% (9483/11664)Updating files:  81% (9522/11664)Updating files:  81% (9549/11664)Updating files:  82% (9565/11664)Updating files:  82% (9586/11664)Updating files:  82% (9608/11664)Updating files:  82% (9659/11664)Updating files:  83% (9682/11664)Updating files:  83% (9684/11664)Updating files:  83% (9705/11664)Updating files:  83% (9725/11664)Updating files:  83% (9754/11664)Updating files:  83% (9782/11664)Updating files:  84% (9798/11664)Updating files:  84% (9822/11664)Updating files:  84% (9851/11664)Updating files:  84% (9884/11664)Updating files:  84% (9905/11664)Updating files:  85% (9915/11664)Updating files:  85% (9930/11664)Updating files:  85% (9963/11664)Updating files:  85% (9997/11664)Updating files:  86% (10032/11664)Updating files:  86% (10034/11664)Updating files:  86% (10074/11664)Updating files:  86% (10108/11664)Updating files:  87% (10148/11664)Updating files:  87% (10151/11664)Updating files:  87% (10189/11664)Updating files:  87% (10229/11664)Updating files:  88% (10265/11664)Updating files:  88% (10266/11664)Updating files:  88% (10297/11664)Updating files:  88% (10340/11664)Updating files:  89% (10381/11664)Updating files:  89% (10383/11664)Updating files:  89% (10423/11664)Updating files:  89% (10453/11664)Updating files:  89% (10480/11664)Updating files:  89% (10497/11664)Updating files:  90% (10498/11664)Updating files:  90% (10515/11664)Updating files:  90% (10542/11664)Updating files:  90% (10569/11664)Updating files:  90% (10602/11664)Updating files:  91% (10615/11664)Updating files:  91% (10646/11664)Updating files:  91% (10676/11664)Updating files:  91% (10700/11664)Updating files:  91% (10729/11664)Updating files:  92% (10731/11664)Updating files:  92% (10760/11664)Updating files:  92% (10789/11664)Updating files:  92% (10813/11664)Updating files:  92% (10832/11664)Updating files:  93% (10848/11664)Updating files:  93% (10855/11664)Updating files:  93% (10888/11664)Updating files:  93% (10923/11664)Updating files:  94% (10965/11664)Updating files:  94% (10970/11664)Updating files:  94% (10998/11664)Updating files:  94% (11040/11664)Updating files:  95% (11081/11664)Updating files:  95% (11126/11664)Updating files:  95% (11154/11664)Updating files:  95% (11178/11664)Updating files:  96% (11198/11664)Updating files:  96% (11203/11664)Updating files:  96% (11240/11664)Updating files:  96% (11268/11664)Updating files:  97% (11315/11664)Updating files:  97% (11316/11664)Updating files:  97% (11353/11664)Updating files:  97% (11392/11664)Updating files:  97% (11424/11664)Updating files:  98% (11431/11664)Updating files:  98% (11461/11664)Updating files:  98% (11478/11664)Updating files:  98% (11501/11664)Updating files:  98% (11540/11664)Updating files:  99% (11548/11664)Updating files:  99% (11565/11664)Updating files:  99% (11592/11664)Updating files:  99% (11609/11664)Updating files:  99% (11629/11664)Updating files: 100% (11664/11664)Updating files: 100% (11664/11664), done.
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlibgit2/[m
+	[31mmy_unix_session.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ cat .gitignore
+cat: .gitignore: No such file or directory
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ cat .gitignore
+.[oa]
+*~cat: .gitignore: No such file or directory
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ *.[oa]
+*.[oa]: command not found
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ *~[K[Kgit add libgit2/
+warning: adding embedded git repository: libgit2
+[33mhint: You've added another git repository inside your current repository.[m
+[33mhint: Clones of the outer repository will not contain the contents of[m
+[33mhint: the embedded repository and will not know how to obtain it.[m
+[33mhint: If you meant to add a submodule, use:[m
+[33mhint: [m
+[33mhint: 	git submodule add <url> libgit2[m
+[33mhint: [m
+[33mhint: If you added this path by mistake, you can remove it from the[m
+[33mhint: index with:[m
+[33mhint: [m
+[33mhint: 	git rm --cached libgit2[m
+[33mhint: [m
+[33mhint: See "git help submodule" for more information.[m
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git status
+
+^Z
+[1]+  Stopped                 git status
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git rm --cached libgit2
+fatal: Unable to create '/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git status -s
+[32mA[m  libgit2
+[31m??[m my_unix_session.txt
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ cat .gitignore
+cat: .gitignore: No such file or directory
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ cat .gitignore[C[1P.gitignore[1P.gitignore[1P.gitignore[1P.gitignore
+.gitignore: command not found
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ .gitignore: command not found[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch .gitignore
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ echo 'application/cache' >> .gitignore[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@m[1@y[1@_[1@u[1@n[1@i[1@x[1@_[1@s[1@e[1@s[1@s[1@i[1@o[1@n[1@.[1@t[1@x[1@t
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   libgit2[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git add touch
+fatal: Unable to create '/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ rm -f .git/index.lock
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ rm -f .git/index.lock[8Pgit add touch
+fatal: pathspec 'touch' did not match any files
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git add touch[K[K[K[K[K.gitignore
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   libgit2[m
+
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git diff
+[?1h=[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git diff --cached
+[?1h=[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..f69fc4f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mmy_unix_session.txt[m[m
+[1mdiff --git a/libgit2 b/libgit2[m[m
+[1mnew file mode 160000[m[m
+[1mindex 0000000..8f8e805[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/libgit2[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mSubproject commit 8f8e805e3f37e49563c33a0c67fcf7f0d2e9101c[m[m
+[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git diff --staged
+[?1h=[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..f69fc4f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mmy_unix_session.txt[m[m
+[1mdiff --git a/libgit2 b/libgit2[m[m
+[1mnew file mode 160000[m[m
+[1mindex 0000000..8f8e805[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/libgit2[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mSubproject commit 8f8e805e3f37e49563c33a0c67fcf7f0d2e9101c[m[m
+[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git difftool
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git commit
+hint: Waiting for your editor to close the file... 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin: 1: C:/Program Files/Notepad++/notepad++.exe: not found
+error: There was a problem with the editor ''C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin'.
+Please supply the message using either -m or -F option.
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git commit -m
+error: switch `m' requires a value
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git commit -m "added git ignore"[1P[1@A[1@C[1@h[1@n[1@a[1@g[1@e[1P[1P[1P[1P[1@a[1@n[1@g[1@e[1@ [1@1[1@:[1@ [1P[1@a
+[master (root-commit) 026c423] Change 1: added git ignore
+ 2 files changed, 2 insertions(+)
+ create mode 100644 .gitignore
+ create mode 160000 libgit2
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ rm PROJECTS.md
+rm: cannot remove 'PROJECTS.md': No such file or directory
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git rm --cached README
+fatal: pathspec 'README' did not match any files
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ gir [K[Kt rm log/\*.log
+fatal: pathspec 'log/*.log' did not match any files
+]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git log
+[?1h=[33mcommit 026c4232b0a3da498c74b3a9db5ccb046c424e9a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Himanshu Kumar <himanshu.kumar2687@tigeranalytics.com>[m
+Date:   Wed Mar 15 09:39:58 2023 +0530[m
+[m
+    Change 1: added git ignore[m
+[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git log -p
+[?1h=[33mcommit 026c4232b0a3da498c74b3a9db5ccb046c424e9a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Himanshu Kumar <himanshu.kumar2687@tigeranalytics.com>[m
+Date:   Wed Mar 15 09:39:58 2023 +0530[m
+[m
+    Change 1: added git ignore[m
+[m
+[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..f69fc4f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mmy_unix_session.txt[m[m
+[1mdiff --git a/libgit2 b/libgit2[m[m
+[1mnew file mode 160000[m[m
+[1mindex 0000000..8f8e805[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/libgit2[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mSubproject commit 8f8e805e3f37e49563c33a0c67fcf7f0d2e9101c[m[m
+[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git lof[K [Kg --stat [K [K
+[?1h=[33mcommit 026c4232b0a3da498c74b3a9db5ccb046c424e9a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Himanshu Kumar <himanshu.kumar2687@tigeranalytics.com>[m
+Date:   Wed Mar 15 09:39:58 2023 +0530[m
+[m
+    Change 1: added git ignore[m
+[m
+ .gitignore | 1 [32m+[m[m
+ libgit2    | 1 [32m+[m[m
+ 2 files changed, 2 insertions(+)[m
+[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ git tag
+[?1h=[K[?1l>]0;himanshu@TIGER01843: /mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[01;32mhimanshu@TIGER01843[00m:[01;34m/mnt/c/Users/himanshu.kumar2687/Documents/ubuntuFold[00m$ exit
+exit
+There are stopped jobs.
+]0;himanshu@TIGER01843: /mnt/c/Users
