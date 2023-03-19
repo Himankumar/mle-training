@@ -1,0 +1,25 @@
+{
+    "python.defaultInterpreterPath": "python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "editor.formatOnType": true,
+    "python.formatting.provider": "black",
+    "python.diagnostics.sourceMapsEnabled": true,
+    "python.autoComplete.extraPaths": [],
+    "flake8.args": [
+        "--max-line-length = 120",
+        "--ignore=E501",
+        "--verbose"
+    ],
+    "python.formatting.blackArgs": [
+        "--max-line-length =120",
+    ],
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.analysis.extraPaths": []
+}
