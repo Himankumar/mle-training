@@ -1,8 +1,12 @@
 import os
 import tarfile
 
+import os
+import tarfile
+
 import numpy as np
 import pandas as pd
+from scipy.stats import randint
 from scipy.stats import randint
 from six.moves import urllib
 from sklearn.ensemble import RandomForestRegressor
@@ -22,6 +26,7 @@ HOUSING_PATH = os.path.join("datasets", "housing")
 HOUSING_URL = DOWNLOAD_ROOT + "datasets/housing/housing.tgz"
 
 
+
 def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
     os.makedirs(housing_path, exist_ok=True)
     tgz_path = os.path.join(housing_path, "housing.tgz")
@@ -35,6 +40,7 @@ def load_housing_data(housing_path=HOUSING_PATH):
     fetch_housing_data()
     csv_path = os.path.join(housing_path, "housing.csv")
     return pd.read_csv(csv_path)
+
 
 
 housing = load_housing_data()
@@ -69,6 +75,17 @@ compare_props = pd.DataFrame(
 compare_props["Rand. %error"] = (
     100 * compare_props["Random"] / compare_props["Overall"] - 100
 )
+
+compare_props = pd.DataFrame(
+    {
+        "Overall": income_cat_proportions(housing),
+        "Stratified": income_cat_proportions(strat_test_set),
+        "Random": income_cat_proportions(test_set),
+    }
+).sort_index()
+compare_props["Rand. %error"] = (
+    100 * compare_props["Random"] / compare_props["Overall"] - 100
+)
 compare_props["Strat. %error"] = (
     100 * compare_props["Stratified"] / compare_props["Overall"] - 100
 )
@@ -83,8 +100,12 @@ housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
 corr_matrix = housing.corr()
 corr_matrix["median_house_value"].sort_values(ascending=False)
 housing["rooms_per_household"] = housing["total_rooms"] / housing["households"]
-housing["bedrooms_per_room"] = housing["total_bedrooms"] / housing["total_rooms"]
-housing["population_per_household"] = housing["population"] / housing["households"]
+
+var1 = housing["total_bedrooms"] / housing["total_rooms"]
+housing["bedrooms_per_room"] = var1
+
+var2 = housing["population"] / housing["households"]
+housing["population_per_household"] = var2
 
 housing = strat_train_set.drop(
     "median_house_value", axis=1
@@ -99,7 +120,10 @@ imputer.fit(housing_num)
 X = imputer.transform(housing_num)
 
 housing_tr = pd.DataFrame(X, columns=housing_num.columns, index=housing.index)
-housing_tr["rooms_per_household"] = housing_tr["total_rooms"] / housing_tr["households"]
+
+var3 = housing_tr["total_rooms"] / housing_tr["households"]
+housing_tr["rooms_per_household"] = var3
+
 housing_tr["bedrooms_per_room"] = (
     housing_tr["total_bedrooms"] / housing_tr["total_rooms"]
 )
@@ -108,7 +132,9 @@ housing_tr["population_per_household"] = (
 )
 
 housing_cat = housing[["ocean_proximity"]]
-housing_prepared = housing_tr.join(pd.get_dummies(housing_cat, drop_first=True))
+
+dummy_var = pd.get_dummies(housing_cat, drop_first=True)
+housing_prepared = housing_tr.join(dummy_var)
 
 lin_reg = LinearRegression()
 lin_reg.fit(housing_prepared, housing_labels)
@@ -143,6 +169,7 @@ rnd_search = RandomizedSearchCV(
     scoring="neg_mean_squared_error",
     random_state=42,
 )
+
 rnd_search.fit(housing_prepared, housing_labels)
 cvres = rnd_search.cv_results_
 for mean_score, params in zip(cvres["mean_test_score"], cvres["params"]):
@@ -164,6 +191,7 @@ grid_search = GridSearchCV(
     scoring="neg_mean_squared_error",
     return_train_score=True,
 )
+
 grid_search.fit(housing_prepared, housing_labels)
 
 grid_search.best_params_
@@ -196,8 +224,9 @@ X_test_prepared["population_per_household"] = (
 )
 
 X_test_cat = X_test[["ocean_proximity"]]
-X_test_prepared = X_test_prepared.join(pd.get_dummies(X_test_cat, drop_first=True))
 
+dummy_var2 = pd.get_dummies(X_test_cat, drop_first=True)
+X_test_prepared = X_test_prepared.join(dummy_var2)
 
 final_predictions = final_model.predict(X_test_prepared)
 final_mse = mean_squared_error(y_test, final_predictions)
