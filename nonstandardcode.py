@@ -1,21 +1,30 @@
 import os
 import tarfile
 
+import os
+import tarfile
+
 import numpy as np
 import pandas as pd
+from scipy.stats import randint
 from scipy.stats import randint
 from six.moves import urllib
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-from sklearn.model_selection import (GridSearchCV, RandomizedSearchCV,
-                                     StratifiedShuffleSplit, train_test_split)
+from sklearn.model_selection import (
+    GridSearchCV,
+    RandomizedSearchCV,
+    StratifiedShuffleSplit,
+    train_test_split,
+)
 from sklearn.tree import DecisionTreeRegressor
 
 DOWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml/master/"
 HOUSING_PATH = os.path.join("datasets", "housing")
 HOUSING_URL = DOWNLOAD_ROOT + "datasets/housing/housing.tgz"
+
 
 
 def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
@@ -33,8 +42,8 @@ def load_housing_data(housing_path=HOUSING_PATH):
     return pd.read_csv(csv_path)
 
 
-housing = load_housing_data()
 
+housing = load_housing_data()
 
 train_set, test_set = train_test_split(housing, test_size=0.2, random_state=42)
 
@@ -55,6 +64,17 @@ def income_cat_proportions(data):
 
 
 train_set, test_set = train_test_split(housing, test_size=0.2, random_state=42)
+
+compare_props = pd.DataFrame(
+    {
+        "Overall": income_cat_proportions(housing),
+        "Stratified": income_cat_proportions(strat_test_set),
+        "Random": income_cat_proportions(test_set),
+    }
+).sort_index()
+compare_props["Rand. %error"] = (
+    100 * compare_props["Random"] / compare_props["Overall"] - 100
+)
 
 compare_props = pd.DataFrame(
     {
@@ -149,6 +169,7 @@ rnd_search = RandomizedSearchCV(
     scoring="neg_mean_squared_error",
     random_state=42,
 )
+
 rnd_search.fit(housing_prepared, housing_labels)
 cvres = rnd_search.cv_results_
 for mean_score, params in zip(cvres["mean_test_score"], cvres["params"]):
@@ -170,6 +191,7 @@ grid_search = GridSearchCV(
     scoring="neg_mean_squared_error",
     return_train_score=True,
 )
+
 grid_search.fit(housing_prepared, housing_labels)
 
 grid_search.best_params_
@@ -205,7 +227,6 @@ X_test_cat = X_test[["ocean_proximity"]]
 
 dummy_var2 = pd.get_dummies(X_test_cat, drop_first=True)
 X_test_prepared = X_test_prepared.join(dummy_var2)
-
 
 final_predictions = final_model.predict(X_test_prepared)
 final_mse = mean_squared_error(y_test, final_predictions)
